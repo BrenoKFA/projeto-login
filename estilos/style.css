@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+main {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+input#iemail {
+    background-color: rgb(200, 225, 233);
+}
+
+input#isenha {
+    background-color: lightblue;
+}
