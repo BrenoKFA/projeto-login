@@ -6,16 +6,72 @@
     Lilás: #5f2c82
 */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body, html {
+    background-color: black;
+}
+
 main {
-    width: 700px;
-    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
     text-align: center;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-input#iemail {
-    background-color: rgb(200, 225, 233);
+main h1 {
+    padding: 20px;
+    font-size: 2em;
 }
 
-input#isenha {
-    background-color: lightblue;
+main p {
+    padding: 0px 4px 20px 4px;
 }
+
+article {
+    background-color: #5f2c82;
+    width: 380px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+span {
+    color: white;
+}
+
+.caixa-texto {
+    background-color: rgb(204, 229, 236);
+    width: 320px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.enviar {
+    width: 380px;
+    border-radius: 6px;
+    background-color: rgb(162, 206, 221);
+    padding: 6px;
+    margin: 10px 0px;
+    font-weight: bolder;
+}
+
+.esqueci-senha {
+    width: 380px;
+    border-radius: 6px;
+    border: 1px solid rgb(162, 206, 221);
+    background-color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+
